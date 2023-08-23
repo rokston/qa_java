@@ -3,16 +3,15 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
-import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class FelineTestParam {
+public class FelineParamTest {
 
     private final int kittensCount;
     private final int resultKittensCount;
 
-    public FelineTestParam(int kittensCount, int resultKittensCount) {
+    public FelineParamTest(int kittensCount, int resultKittensCount) {
         this.kittensCount = kittensCount;
         this.resultKittensCount = resultKittensCount;
     }
